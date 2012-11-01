@@ -10,5 +10,8 @@ public class Hello {
 	public void setMsg(String msg) {
 		this.msg = msg;
 	}
-			
+	
+	public void print(){
+		System.out.println(this.msg);
+	}
 }
